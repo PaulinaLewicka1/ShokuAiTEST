@@ -15,17 +15,17 @@ cayman-blog:
 
 #theme: # leave it empty
 theme: jekyll-theme-cayman-blog
-
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-target-blank
+  - kramdown-parser-gfm
 
 # social
 author: lorepirri
 image: /thumbnail-jumbo.png
 twitter:
   username: lorepirri
-
-plugins:
-  - jekyll-target-blank
-  - kramdown-parser-gfm
 
 target-blank:
     rel: nofollow
